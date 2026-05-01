@@ -1,9 +1,33 @@
-# ---
+# 🔧 hermes-social-poster
 
---- name: social-poster description: Draft, schedule, and track social media posts across X/Twitter and Telegram channels with hashtag research and content calendar integration 
+A [Hermes Agent](https://hermes-agent.nousresearch.com/) skill for **social-poster** (social-media category).
 
-Part of the [Hermes Agent](https://github.com/Marrowleaf/hermes-agent) skill ecosystem.
+## Installation
+
+```bash
+cd ~/.hermes/skills/social-media
+git clone https://github.com/Marrowleaf/hermes-social-poster.git social-poster
+```
+
+## Usage
+
+Once installed, this skill is automatically detected by Hermes Agent.
+
+```
+skill_view(name="social-poster")
+```
+
+## Structure
+
+- `SKILL.md` — Full documentation
+- `references/` — Reference materials
+- `scripts/` — Utility scripts
+- `templates/` — Templates
 
 ## License
 
-MIT License - Copyright (c) 2026 James Durrant
+MIT — see [LICENSE](LICENSE)
+
+---
+
+Built with ❤️ by [James Durrant](https://github.com/Marrowleaf)

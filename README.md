@@ -31,3 +31,8 @@ MIT — see [LICENSE](LICENSE)
 ---
 
 Built with ❤️ by [James Durrant](https://github.com/Marrowleaf)
+
+## Related Hermes Skills
+- [hermes-spotify](https://github.com/Marrowleaf/hermes-spotify) — Spotify integration and music management
+- [hermes-telegram-channels](https://github.com/Marrowleaf/hermes-telegram-channels) — Telegram channel management
+- [hermes-youtube-content](https://github.com/Marrowleaf/hermes-youtube-content) — YouTube content creation and management

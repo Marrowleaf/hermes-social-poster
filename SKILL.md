@@ -15,6 +15,7 @@ metadata:
     - cron
   related_skills:
     - xurl
+    - hermes-tweet
     - telegram-bot
     - obsidian-vault
 ---
@@ -25,7 +26,28 @@ Draft, schedule, and track posts across X/Twitter and Telegram channels. Include
 
 ## Overview
 
-Social Poster streamlines your social media workflow by providing a unified interface for X/Twitter (via the `xurl` skill) and Telegram channels. It handles drafting with tone presets, hashtag research, scheduling, content calendar management, and engagement tracking — all integrated with your Obsidian vault.
+Social Poster streamlines your social media workflow by providing a unified interface for X/Twitter (via the `xurl` skill or Hermes Tweet) and Telegram channels. It handles drafting with tone presets, hashtag research, scheduling, content calendar management, and engagement tracking - all integrated with your Obsidian vault.
+
+## X/Twitter Backend Options
+
+Use `xurl` when you want the official X API CLI path for basic posting,
+replying, and engagement tracking.
+
+Use `hermes-tweet` when the Hermes session needs the native Xquik plugin route:
+search Twitter/X, read tweet replies, look up users, monitor tweets, export
+followers, post tweets/replies, send DMs, or automate X actions with explicit
+approval gates.
+
+Install Hermes Tweet before using that route:
+
+```bash
+hermes plugins install Xquik-dev/hermes-tweet --enable
+hermes tools list
+```
+
+Operational rule: start with `tweet_explore`, use `tweet_read` for public
+read-only X endpoints, and use `tweet_action` only after the user approves the
+exact endpoint, method, payload, and reason.
 
 ## Commands
 
